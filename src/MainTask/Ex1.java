@@ -25,7 +25,7 @@ public class Ex1 {
         a = s.nextInt();
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                for (int f = 0; f < arr[j].length; f++) {
+                for (int f = 0; f < arr[i][j].length; f++) {
                     arr[i][j][f]= arr[i][j][f]+a;
 
 
